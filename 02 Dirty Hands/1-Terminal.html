@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147438258-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147438258-1');
+</script>
+
+  <title>Dirty Hands / 01 / Terminal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
+  <link rel="icon" href="image/08.png" height="10px">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <meta name="keywords" content="www.linuxtutors.com,Linux,Dirty Hands,Directory,Files,Search,Editors,File Operation,input output,Disks, Process,Shell Script"/>
+  <meta name="description" content="This Tutorial has been made by keeping consideration of the beginers. It will take you from the basics to give a good knowledge of Linux this skill is very much demanded in Computer Engineering, System Administrator. Learn from linuxtutors to enhance skill for your profile." />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Chicle' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family= Arima Madurai' rel='stylesheet'>
+  
+  <link rel="stylesheet" type="text/css" href="newindex.css">
+</head>
+<body onload="myFunction()" style="margin:0;">
+  
+         <div id="loader"><img src="New GIF/2.gif"></div>
+      
+<div style="display:none;" id="myDiv" class="animate-bottom">
+     <nav class="navbar navbar-default navbar-fixed"  >
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" style="background-color:transparent;margin-top: 10px;" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar" style="border-radius: 0px;background-color:white; "></span>
+        <span class="icon-bar" style="border-radius: 0px;background-color:white;"></span>
+        <span class="icon-bar" style="border-radius: 0px;background-color:white;"></span>                        
+      </button>
+        <img src="image/03.png" height="60px" width="70px;">
+       <a class="navbar-brand" href="http://linuxtutors.com/">Linux Tutors</a>
+       
+       
+    </div>
+     
+</nav>
+ 
+ <div class="full_content">
+<div class="wrapper" id="top_nav">
+
+</div>
+  <div class="container" style="width: 100%;padding: 20px;">
+    <div class="row">
+      <div class="col-lg-1 col-xs-2" style="background-color:">
+        <div class="nav_class" id="nav_class">
+          <nav>
+              <a href="javascript:void(0)" class="close" style="color: black;opacity:1; text-shadow: none;" onclick="closeNav()">&times;</a><br><br>
+             <div class="list_of_topics">
+    
+           <div id="accordion">
+                           <div class="card">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" href="#collapseOne">
+
+                   <h4>Introduction</h4>
+                  </a>
+                </div>
+                <div id="collapseOne" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <ul>
+                       <li>
+                        <a href="http://linuxtutors.com/01%20Introduction/1-GNU_LINUX.html">1. GNU LINUX </a>
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/01%20Introduction/2-user_interface.html"> 2. User Interface </a>
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/01%20Introduction/3-distros.html"> 3. Distros </a>
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/01%20Introduction/4-File_system.html">4. File System </a>
+                      </li>
+                       <li> 
+                        <a href="http://linuxtutors.com/01%20Introduction/5-install.html">5. Installing Linux </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                  <h4>Dirty Hands</h4>
+                </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                   <ul>
+                      <li>
+                        <a href="http://linuxtutors.com/02%20Dirty%20Hands/1-Terminal.html"> 1. Terminal</a>
+                         
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/02%20Dirty%20Hands/2-%20HandOn.html"> 2. Hand On </a>
+                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/02%20Dirty%20Hands/3-%20Passwd.html"> 3. Passwd </a>
+                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/02%20Dirty%20Hands/4-%20Man.html"> 4. Man </a>
+                        
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+                    <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                    <h4>Directory </h4>
+                  </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                   <ul>
+                     <li>
+                        <a href="http://linuxtutors.com/03%20Directory/1-pwd.html"> 1. pwd</a>
+                         
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/03%20Directory/2-ls.html"> 2. ls</a>
+                         
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/03%20Directory/3-cd.html"> 3. cd </a>
+                       
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/03%20Directory/4-mkdir.html"> 4. mkdir </a>
+                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/03%20Directory/5-rmdir.html"> 4. rmdir </a>
+                        
+                      </li>
+                   </ul>
+                  </div>
+                </div>
+              </div>
+
+                <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                    <h4>Search</h4>
+                  </a>
+                </div>
+                <div id="collapseFour" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                   <ul>
+                      <li>
+                        <a href="http://linuxtutors.com/05%20Search/1-which.html"> 1. which</a>
+                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/05%20Search/2-find.html"> 2. find</a>
+                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/05%20Search/3-whereis.html"> 3. whereis</a>
+                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/05%20Search/4-locate.html"> 4. locate</a>
+                        
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+               <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+                    <h4>Files</h4>
+                  </a>
+                </div>
+                <div id="collapseFive" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                   <ul>
+                      <li>
+                        <a href="http://linuxtutors.com/04%20Files/1-touch.html"> 1.touch</a>
+                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/04%20Files/2-rm.html"> 2. rm</a>
+                         
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/04%20Files/3-cp.html"> 3. cp </a>
+                         
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/04%20Files/4-mv.html"> 4. mv </a>
+                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/04%20Files/5-chmod.html"> 5. chmod </a>
+                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/04%20Files/6-chown.html"> 6. chown </a>
+                        
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
+                    <h4>Editors</h4>
+                  </a>
+                </div>
+                <div id="collapseSix" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <ul>
+                      <li>
+                        <a href="http://linuxtutors.com/06%20Editors/1-nano_vim.html"> 1. nano vim </a>
+                         
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/06%20Editors/2-Gui%20Editors.html"> 2. GUI Editors </a>
+                        
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+               <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseSeven">
+                    <h4>File Operation</h4>
+                  </a>
+                </div>
+                <div id="collapseSeven" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <ul>
+                      <li>
+                        <a href="http://linuxtutors.com/07%20File%20Operation/01%20cat.html"> 1. cat</a>
+                       
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/07%20File%20Operation/02%20more.html"> 2. more </a>
+                      
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/07%20File%20Operation/03%20head%20tail.html"> 3. head tail </a>
+                        
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/07%20File%20Operation/04%20grep.html"> 4. grep </a>
+                       
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/07%20File%20Operation/05%20sort.html"> 5. sort </a>
+                      
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/07%20File%20Operation/06%20wc.html"> 6. wc </a>
+                       
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+                    <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseEight">
+                    <h4>Input-Output</h4>
+                  </a>
+                </div>
+                <div id="collapseEight" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <ul>
+                      <li>
+                        <a href="http://linuxtutors.com/08%20input%20output/01%20file%20descriptor.html"> 1. file descriptor</a>
+                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/08%20input%20output/02%20input.html"> 2. input </a>
+                       
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/08%20input%20output/03%20output.html"> 3. output </a>
+                       
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/08%20input%20output/04%20error.html"> 4. error </a>
+                        
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseNine">
+                    <h4>Disks</h4>
+                  </a>
+                </div>
+                <div id="collapseNine" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <ul>
+                      <li>
+                        <a href="http://linuxtutors.com/09%20Disks/01%20df.html"> 1. df</a>                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/09%20Disks/02%20du.html"> 2. du </a>
+                       
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/09%20Disks/03%20free.html"> 3. free </a>
+                       
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/09%20Disks/04%20mount.html"> 4. mount </a>
+                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/09%20Disks/05%20mkfs.html"> 5. mkfs </a>
+                        
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+                <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseTen">
+                    <h4>Process</h4>
+                  </a>
+                </div>
+                <div id="collapseTen" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <ul>
+                      <li>
+                        <a href="http://linuxtutors.com/10%20Process/01%20ps.html"> 1. ps</a>                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/10%20Process/02%20top.html"> 2. top </a>
+                       
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/10%20Process/03%20kill.html"> 3. kill </a>
+                       
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/10%20Process/04%20services.html"> 4. services </a>
+                        
+                      </li>
+                       
+                    </ul>
+                  </div>
+                </div>
+              </div>
+                <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseEleven">
+                    <h4>Shell Script</h4>
+                  </a>
+                </div>
+                <div id="collapseEleven" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <ul>
+                      <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/01%20Shell%20script.html"> 1. Shell Script</a>                        
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/02%20first%20script.html"> 2. First Script </a>
+                       
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/03%20variable.html"> 3. variable </a>
+                       
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/05%20%20more%20variables.html"> 4. More Variables </a>
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/06%20arithmetic.html"> 5. Arithmetic </a>
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/07%20%20strings.html"> 6. Strings </a>
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/08%20if%20else.html"> 7. If else </a>
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/09%20case.html"> 8. Case </a>
+                      </li>
+                      <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/10%20for%20loop.html"> 9. For loop  </a>
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/11%20while.html"> 10. while  </a>
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/12%20until.html"> 11. Until  </a>
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/13%20arrays.html"> 12. Arrays </a>
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/14%20functions.html"> 13. Functions </a>
+                      </li>
+                       <li>
+                        <a href="http://linuxtutors.com/11%20Shell%20Scripting/15%20debugging.html"> 14. Debugging </a>
+                      </li>
+                       
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+          </nav>
+        </div>
+            <span id="open" class="open" onclick="openNav()">&#9776</span>
+      </div>
+              <div class="col-lg-11 col-xs-12" style="background-color:">
+                <div class="heading_object">
+                    <div class="row">
+                      
+                      <div class="col-lg-4" style="background-color:;">
+                       <h1 style="font-family: times new roman;font-style: italic;"> <img src="image/02.png" width="30px" height="30px"> <b>Dirty Hands</b> <img src="image/01.png" width="30px" height="30px"> </h1>
+                      </div>
+                      <div class="col-lg-8" style="background-color:;">
+                        <ul class="breadcrumb"">
+                          
+                          <li class="active_home_page" data-toggle="tooltip" title="You Are Here !" data-placement="right"><i class="fa fa-tasks" style="color: #ff7c00"></i> <b>Terminal</b></li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+                 <script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
+                  <div class="program_well">
+      <div class="well">               
+       <br><br>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane active"><br>
+                <div class="row">
+                  <div class="col-lg-3"></div>
+                   <div class="col-lg-6">
+                      <div class="unix_image">
+                        <div class="well">
+                          <img src="image/terminal.png" width="100%" data-toggle="modal" data-target="#myModal1">
+                        </div>
+                      </div> 
+                   </div>
+                    <div class="col-lg-3"></div>
+                </div>
+                <div class="modal fade" id="myModal1">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                       <img src="image/terminal.png" width="100%">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+               <h3> Terminals :</h3>
+                  <p>&nbsp &nbsp &nbsp &nbsp Earlier terminal was a computer screen device which uses to show software output but now it is mixed in software.Now a days, Terminal is a os tool used in linux to interact to linux kernel via shell program.Terminal are wrappers for shell. It is equivalent to cmd in windows. It is a kind of ui too, it can be called as tui(terminal user interface).There are different type of terminal dependent on UI distribution of linux you are using. example- : Gnome terminal for GNOME ui, K terminal(KTerm) for KDE etc.
+                 </p>
+
+              <h3> SHELL :</h3>
+                   <p>&nbsp &nbsp &nbsp &nbsp Shells are programs made to interpret commands from user in text to machine readable instructions for kernel. People mix these terms like terminal for shell and shell for terminal, but both are distinct.</p>
+
+              <p><b>Shells are of many types and have different approach for instructions. Various types are :</b>
+               <br><br>
+                &nbsp &nbsp 1.Bash(Bourne Again Shell)<br>
+                &nbsp &nbsp 2.CSh(C Shell)<br>
+                &nbsp &nbsp 3.KSH(Korn Shell)<br>
+              </p>
+
+              <p>&nbsp &nbsp &nbsp &nbsp Beginners need not to worry about how they work,just know the role and you can know about these more on internet.</p>
+              
+               <p><b>Terminal have many keyboard shortuct  which eases the use of terminal. <br>Most shortcuts are constant over different terminals too.</b></p>
+               <br><br>
+<hr />  
+                <div class="row">
+                   
+                  <div class="col-lg-12">
+                    <p><b>CTRL + L</b>  : Clear the screen.</p>
+                  </div>
+                   
+                </div>
+<hr />
+                <div class="row">
+                   
+                  <div class="col-lg-12">
+                    <p><b>CTRL + W  </b>Delete the word starting at cursor.</b> </p>
+                  </div>
+                  
+                </div>
+<hr />
+                <div class="row">
+                  
+                  <div class="col-lg-12">
+                    <p><b>CTRL + U :</b>Clear the line i.e. Delete all words from command line. </p>
+                  </div>
+                 
+                </div>
+<hr />
+                <div class="row">
+                    
+                  <div class="col-lg-12">
+                    <p><b>CTRL + U :</b>Clear the line i.e. Delete all words from command line. </p>
+                  </div>
+                  
+                </div>
+<hr />
+                <div class="row">
+                  
+                  <div class="col-lg-12">
+                    <p><b>CTRL + U :</b>Clear the line i.e. Delete all words from command line. </p>
+                  </div>
+                   
+                </div>
+<hr />
+                <div class="row">
+                   
+                  <div class="col-lg-12">
+                    <p><b>Up and Down arrow keys :</b>Recall commands (see command history). </p>
+                  </div>
+                  
+                </div>
+<hr />
+                 <div class="row">
+                   
+                  <div class="col-lg-12">
+                    <p><b>Tab :</b>Auto-complete files, directory, command names and much more. </p>
+                  </div>
+                   
+                </div>
+<hr />
+                 <div class="row">
+                  
+                  <div class="col-lg-12">
+                    <p><b>CTRL + R :</b>Search through previously used commands (see command history). </p>
+                  </div>
+                  
+                </div>
+<hr />
+                <div class="row">
+                    
+                  <div class="col-lg-12">
+                    <p><b>CTRL + C :</b>Cancel currently running commands. </p>
+                  </div>
+                  
+                </div>
+<hr />
+                <div class="row">
+                   
+                  <div class="col-lg-12">
+                    <p><b>CTRL + T :</b>Swap the last two characters before the cursor. </p>
+                  </div>
+                  
+                </div>
+<hr />
+                <div class="row">
+                   
+                  <div class="col-lg-12">
+                    <p><b>ESC + T :</b>Swap the last two words before the cursor. </p>
+                  </div>
+                   
+                </div>
+<hr />
+                <div class="row">
+                  
+                  <div class="col-lg-12">
+                    <p><b>CTRL + H :</b>Delete the letter starting at cursor. </p>
+                  </div>
+                  
+                </div>
+<hr />
+                <p>&nbsp &nbsp &nbsp &nbsp You can open terminal by writing simply terminal or clt+alt+T buttons. You will see a box with something written on left and a blinking cursor. It looks like this</p>
+                  <div class="row">
+                      <div class="col-lg-1"></div>
+                      <div class="col-lg-10">
+                         <div class="unix_image_ui">
+                          <div class="well">
+                            <img src="image/normal_use.png" width="100%" data-toggle="modal" data-target="#myModal4"> 
+                          </div>
+                        </div> 
+                      </div>
+                      <div class="col-lg-1"></div>
+                  </div>
+                   <div class="modal fade" id="myModal4">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                           <img src="image/normal_use.png" width="100%">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                <p>&nbsp &nbsp &nbsp &nbsp [userName@machineName]:~{$ | #} -: useName is use name of logged person , machineName is system name being used, $ represents normal user who have normal access to system , # represents root user who have whole system control in their hand.</p>
+
+            </div>
+     
+          </div> 
+      </div>
+ <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-xs-6">
+            
+          </div>
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4 col-xs-6">
+            <a href="http://linuxtutors.com/02%20Dirty%20Hands/2-%20HandOn.html"><button class="next_button">Next</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+              </div>
+    </div>
+  </div>
+  <div id="section_footer" class="container-fluid">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-4" style="background-color:;">
+           <div class="contact_us">
+              <h3><b>Contact Us</b></h3>
+              <h5> 2874georgian@gmail.com</h5>
+              <h5> avinashsingh4494@gmail.com</h5>
+          </div>
+        </div>
+        <div class="col-lg-4" style="background-color:;">
+           <div class="row">
+                 <div class="col-lg-4 col-xs-5" style="background-color:;"></div>
+                <div class="col-lg-5 col-xs-4" style="background-color:;">
+                    <a href="#top_nav" style="text-decoration:none;"> 
+                      <div class="navigation_up"></div>
+                      <div class="navigation_to_the_top">
+                         <h3>To The Top</h3>
+                      </div>
+                    </a>
+                </div>
+                 <div class="col-lg-3 col-xs-3" style="background-color:;"></div>
+              </div>
+        </div>
+        <div class="col-lg-4" style="background-color:">
+           <div class="terms_and_others">
+          <div class="row">
+            <div class=" col-xs-2 "></div>
+            <div class="col-lg-12 col-xs-8" style="background-color:;">
+               <div class="share">
+                  <span><a href="#"><i class="fa fa-facebook"></i></a></span>
+                  <span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                
+                  <span><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
+                  <span><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span>
+                </div>
+            </div>
+         
+            <div class="col-xs-2"></div>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+
+ 
+    <div class="row">
+          <div class="footer">
+            <div class="col-lg-1 col-xs-12 col-sm-12 col-md-12" style="background-color:;"></div>
+              <div class="col-lg-10 col-xs-12 col-sm-12 col-md-12" style="background-color:;">
+                  <h5> All data from GNU/LINUX manual pages. All data been reviewed by developers but we cannot warrant full correctness of all content.</h5>
+              </div>
+             <div class="col-lg-1 col-xs-12 col-sm-12 col-md-12" style="background-color:;"></div>
+          </div>
+      </div>
+       <br>
+ </div>
+</div>
+</div>
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 2000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<script>
+  function openNav()
+  {
+    document.getElementById("open").style.display="none";
+    document.getElementById("nav_class").style.width="50%";
+  }
+  function closeNav()
+  {
+    document.getElementById("open").style.display="block";
+    document.getElementById("nav_class").style.width="0";
+  }
+
+</script>
+</body>
+</html>
+ 

@@ -1,0 +1,163 @@
+
+ #loader img
+{
+margin-top: 30%;
+width: 100%;
+background-color: transparent;
+ 
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+ .img_anim
+{
+  position:relative;
+  right: 0;
+  color: white;
+  -webkit-animation: mymovess 2s linear; /* Chrome, Safari, Opera */
+  animation: mymovess 2s linear;
+  opacity: 1;
+}
+ 
+ @-webkit-keyframes mymovess {
+  0%{right: 500px;opacity: 0; }
+  50% {right: 500px;opacity: 0;  }
+}
+ @keyframes mymovess {
+  0%{right: 500px;opacity: 0;}
+  50% {right: 500px;opacity: 0; }
+}
+.head02
+{
+  position:relative;
+  top: 0;
+  color: white;
+  -webkit-animation: mymoves 4s linear; /* Chrome, Safari, Opera */
+  animation: mymoves 4s linear;
+  opacity: 1;
+}
+ 
+ @-webkit-keyframes mymoves {
+  0%{top: 50px;opacity: 0;}
+  50% {top: 50px;opacity: 0;  }
+}
+ @keyframes mymoves {
+  0%{top: 50px;opacity: 0;}
+  50% {top: 50px;opacity: 0;  }
+}
+.head03
+{
+  position:relative;
+  top: 0;
+  color: white;
+  -webkit-animation: mymoves 4s linear; /* Chrome, Safari, Opera */
+  animation: mymoves 4s linear;
+  opacity: 1;
+}
+ 
+ @-webkit-keyframes mymoves {
+  0%{top: 50px;opacity: 0;}
+  50% {top: 50px;opacity: 0;  }
+}
+ @keyframes mymoves {
+  0%{top: 50px;opacity: 0;}
+  50% {top: 50px;opacity: 0;  }
+}
+.mydiv
+  {
+  position:relative;
+  right: 0;
+  color: white;
+  -webkit-animation: mymove 3s linear; /* Chrome, Safari, Opera */
+  animation: mymove 3s linear;
+  opacity: 1;
+}
+ 
+ @-webkit-keyframes mymove {
+  0%{right: 500px;opacity: 0;}
+  50% {right: 500px;opacity: 0;  }
+}
+ @keyframes mymove {
+  0%{right: 500px;opacity: 0;}
+  50% {right: 500px;opacity: 0; }
+}
+.head04
+{
+  position:relative;
+  top: 0;
+  color: white;
+  -webkit-animation: ourteam 8s linear; /* Chrome, Safari, Opera */
+  animation: ourteam 8s linear;
+  opacity: 1;
+}
+ 
+ @-webkit-keyframes ourteam {
+  0%{top: 50px;opacity: 0;}
+  50% {top: 50px;opacity: 0;  }
+}
+ @keyframes ourteam {
+  0%{top: 50px;opacity: 0;}
+  50% {top: 50px;opacity: 0;  }
+}
+.button
+{
+  position:relative;
+  color: white;
+  -webkit-animation: get 3s linear; /* Chrome, Safari, Opera */
+  animation: get 3s linear;
+  opacity: 1;
+}
+ 
+ @-webkit-keyframes get {
+  0%{ opacity: 0;}
+  50% { opacity: 0;  }
+}
+ @keyframes get {
+  0%{ opacity: 0;}
+  50% { opacity: 0; }
+}
+.social
+{
+  position:relative;
+  top: 0;
+  color: white;
+  -webkit-animation: mymoves 1s linear; /* Chrome, Safari, Opera */
+  animation: mymoves 1s linear;
+  opacity: 1;
+}
+ 
+ @-webkit-keyframes mymoves {
+  0%{top: 50px;opacity: 0;}
+  50% {top: 50px;opacity: 0;  }
+}
+ @keyframes mymoves {
+  0%{top: 50px;opacity: 0;}
+  50% {top: 50px;opacity: 0;  }
+}
